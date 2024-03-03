@@ -79,7 +79,7 @@ export default function Home() {
       <footer className="py-4 flex justify-center pb-8">
         <p className="footer-text text-sm flex items-center gap-1">
           Made by
-          <Image src={"/logo-white.svg"} alt="logo" width={20} height={20} />
+          
           <a
             rel="noopener"
             href="https://github.com/TaliaPrzybyszewski"

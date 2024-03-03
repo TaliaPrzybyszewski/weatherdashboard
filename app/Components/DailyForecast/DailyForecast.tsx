@@ -8,10 +8,10 @@ import { Skeleton } from "@/components/skeleton";
 import moment from "moment";
 
 function DailyForecast() {
-  const { forecast, FiveDayForecast } = useGlobalContext();
+  const { forecast, fiveDayForecast } = useGlobalContext();
 
   const { weather } = forecast;
-  const { city, list } = FiveDayForecast;
+  const { city, list } =fiveDayForecast;
 
   if (!forecast || !city || !list) {
     return <Skeleton className="h-[12rem] w-full" />;
